@@ -13,11 +13,10 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            t is a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout. The point of
-            using Lorem Ipsum is that it has a more-or-less normal distribution
-            of letters, as opposed to using 'Content here, content here', making
-            it look like readable English.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+            ratione architecto rerum sint maxime labore ipsam quasi nisi, ad
+            pariatur suscipit, alias exercitationem deserunt hic soluta dolore
+            ipsum, rem incidunt?
           </p>
           <div>
             <button
@@ -26,7 +25,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={24} className="ml-1"/>
+                <MdOutlineKeyboardArrowRight size={24} className="ml-1" />
               </span>
             </button>
           </div>
