@@ -1,23 +1,13 @@
 import React from "react";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import quizApp from "../assets/portfolio/quizApp.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: reactWeather,
-    },
-    {
-      id: 2,
-      src: reactWeather,
-    },
-    {
-      id: 3,
-      src: reactWeather,
-    },
-    {
-      id: 4,
-      src: reactWeather,
+      src: quizApp,
+      demo: "https://main.dd25uoux1r80n.amplifyapp.com/",
+      code: "https://github.com/Ratheesh-PR/quizapp",
     },
   ];
   return (
@@ -33,7 +23,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -41,25 +31,25 @@ const Portfolio = () => {
                 className="rounded-md duration-300 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="group w-1/2 px-6 py-2 m-3 duration-200 hover:scale-105">
+                {/* <button className="group w-1/2 px-6 py-2 m-3 duration-200 hover:scale-105">
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-2 m-3 duration-200 hover:scale-105">
                   Code
-                </button>
-                {/* <a
-                  href=""
+                </button> */}
+                <a
+                  href={demo}
                   className="group w-1/2 px-6 py-2 m-3 duration-200 hover:scale-105"
                 >
                   Demo
                 </a>
 
                 <a
-                  href=""
+                  href={code}
                   className="group w-1/2 px-6 py-2 m-3 duration-200 hover:scale-105"
                 >
                   Code
-                </a> */}
+                </a>
               </div>
             </div>
           ))}
