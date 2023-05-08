@@ -13,10 +13,8 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-            ratione architecto rerum sint maxime labore ipsam quasi nisi, ad
-            pariatur suscipit, alias exercitationem deserunt hic soluta dolore
-            ipsum, rem incidunt?
+            Hello! I am a full-stack developer with experience in Ruby on Rails
+            and React, as well as a beginner-level knowledge in Angular.
           </p>
           <div>
             <button
