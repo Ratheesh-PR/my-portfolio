@@ -1,6 +1,8 @@
 import React from "react";
 import hero from "../assets/heroImage1.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Link from "react-scroll/modules/components/Link";
+
 const Home = () => {
   return (
     <div
@@ -17,15 +19,18 @@ const Home = () => {
             and React, as well as a beginner-level knowledge in Angular.
           </p>
           <div>
-            <button
+            <Link
               className="group text-white w-fit px-6 py-3 my-2 flex items-center
              rounded-md bg-gradient-to-r from-sky-500 to-blue-500 cursor-pointer"
+              to="portfolio"
+              smooth
+              duration={500}
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={24} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
