@@ -10,20 +10,6 @@ const Portfolio = () => {
       demo: "https://main.dd25uoux1r80n.amplifyapp.com/",
       code: "https://github.com/Ratheesh-PR/quizapp",
     },
-    {
-      id: 2,
-      src: quizApp,
-      title: "QuizApp",
-      demo: "https://main.dd25uoux1r80n.amplifyapp.com/",
-      code: "https://github.com/Ratheesh-PR/quizapp",
-    },
-    {
-      id: 3,
-      src: quizApp,
-      title: "QuizApp",
-      demo: "https://main.dd25uoux1r80n.amplifyapp.com/",
-      code: "https://github.com/Ratheesh-PR/quizapp",
-    },
    
   ];
   return (
